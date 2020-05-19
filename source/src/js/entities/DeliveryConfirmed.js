@@ -12,7 +12,6 @@ export default class DeliveryConfirmed extends Element {
     showMessage =(firstName,lastName) =>{
         let text = new Element('div', this.element);
         text.addClass('final-message');
-        text.html('go nahuy');
         text.html(`Dear ${firstName} ${lastName}, your order is processing, our support manager will contact you as soon as possiple.`);
 
     }
